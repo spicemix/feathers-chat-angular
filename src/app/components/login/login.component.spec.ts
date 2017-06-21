@@ -1,6 +1,11 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LoginComponent } from './login.component';
+import { Feathers } from '../../services/feathers.service';
+import { Router } from '@angular/router';
+
+let feathersStub: {};
+let routerStub: {};
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
@@ -8,9 +13,13 @@ describe('LoginComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LoginComponent ]
+      declarations: [LoginComponent],
+      providers: [
+        { provide: Feathers, useValue: feathersStub },
+        { provide: Router, useValue: routerStub }
+      ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
