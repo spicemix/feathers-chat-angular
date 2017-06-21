@@ -20,7 +20,7 @@ describe('ChatComponent', () => {
       ],
       providers: [
         { provide: AuthService, useValue: authStub },
-        DataService, // TODO spy on real DataService
+        DataService,
         Feathers
       ]
     })
