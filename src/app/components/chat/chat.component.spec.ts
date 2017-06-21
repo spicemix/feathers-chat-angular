@@ -5,8 +5,10 @@ import { DataService } from '../../services/data.service';
 import { AuthService } from '../../services/auth.service';
 import { Feathers } from '../../services/feathers.service';
 
+/* tslint:disable:prefer-const */
 let feathersStub: {};
 let authStub: {};
+/* tslint:enable:prefer-const */
 
 describe('ChatComponent', () => {
   let component: ChatComponent;

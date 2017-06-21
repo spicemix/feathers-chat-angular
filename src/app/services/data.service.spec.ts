@@ -3,7 +3,9 @@ import { TestBed, inject } from '@angular/core/testing';
 import { DataService } from './data.service';
 import { Feathers } from './feathers.service';
 
+/* tslint:disable:prefer-const */
 let feathersStub: {};
+/* tslint:enable:prefer-const */
 
 describe('DataService', () => {
   beforeEach(() => {

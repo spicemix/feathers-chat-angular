@@ -4,8 +4,10 @@ import { LoginComponent } from './login.component';
 import { Feathers } from '../../services/feathers.service';
 import { Router } from '@angular/router';
 
+/* tslint:disable:prefer-const */
 let feathersStub: {};
 let routerStub: {};
+/* tslint:enable:prefer-const */
 
 describe('LoginComponent', () => {
   let component: LoginComponent;

@@ -4,8 +4,10 @@ import { AuthService } from './auth.service';
 import { Feathers } from './feathers.service';
 import { Router } from '@angular/router';
 
+/* tslint:disable:prefer-const */
 let feathersStub: {};
 let routerStub: {};
+/* tslint:enable:prefer-const */
 
 describe('AuthService', () => {
   beforeEach(() => {
