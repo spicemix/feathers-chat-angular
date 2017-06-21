@@ -7,8 +7,8 @@ describe('feathers-chat-angular App', () => {
     page = new FeathersChatAngularPage();
   });
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
-  });
+  // it('should display message saying app works', () => {
+  //   page.navigateTo();
+  //   expect(page.getParagraphText()).toEqual('app works!');
+  // });
 });
