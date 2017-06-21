@@ -7,8 +7,10 @@ import * as hooks from 'feathers-hooks';
 import * as socketio from 'feathers-socketio/client';
 import * as authentication from 'feathers-authentication-client';
 
-// TS Lint will complain here. Unfortunately feathers-reactive needs the entire Rx object passed on creation.
+// TS Lint would complain here. Unfortunately feathers-reactive needs the entire Rx object passed on creation.
+/* tslint:disable:import-blacklist */
 import * as Rx from 'rxjs';
+/* tslint:enable:import-blacklist */
 
 /**
  * Simple wrapper for feathers
