@@ -34,7 +34,7 @@
   "devDependencies": {
     "@angular/cli": "1.1.2",
     "@angular/compiler-cli": "^4.0.0",
-    "@types/jasmine": "2.5.52",
+    "@types/jasmine": "2.5.45",
     "@types/node": "~8.0.1",
     "@types/socket.io-client": "^1.4.29",
     "codelyzer": "~3.1.1",
